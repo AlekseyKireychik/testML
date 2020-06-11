@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>maxline</title>
+    <meta name="description" content="maxline"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <!-- <link rel="icon" href="images/favicon.png"> -->
+    <meta property="og:image" content="images/dest/preview.jpg">
+    <link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container-full">
+        <div class="row">
+            <div class="header__logo">
+                <a href="#">
+                    <img class="header__logo-img" src="images/dest/logo.svg" alt="maxline"/>
+                </a>
+            </div>
+            <nav class="header__nav">
+                <div class="header__top">
+                    <ul class="header__top-menu">
+                        <li class="header__item">
+                            <a href="#" class="header__link">Спорт</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Live</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link drobdown">Tv игры</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Результаты</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">СТАТИСТИКА</a>
+                        </li>
+                    </ul>
+                    <div class="header__top-function">
+                        <div class="header__top-lang">
+                            <div class="lang__choose">
+                                <img src="./images/dest/icons/lang-icon-russia.svg" alt="language">
+                            </div>
+                            <ul class="lang__list">
+                                <li class="lang__item"><span>русский</span><img
+                                        src="./images/dest/icons/lang-icon-russia.svg" alt="русский"></li>
+                                <li class="lang__item"><span>русский</span><img
+                                        src="./images/dest/icons/lang-icon-russia.svg" alt="русский"></li>
+                                <li class="lang__item"><span>русский</span><img
+                                        src="./images/dest/icons/lang-icon-russia.svg" alt="русский"></li>
+                                <li class="lang__item"><span>русский</span><img
+                                        src="./images/dest/icons/lang-icon-russia.svg" alt="русский"></li>
+                                <li class="lang__item"><span>русский</span><img
+                                        src="./images/dest/icons/lang-icon-russia.svg" alt="русский"></li>
+                            </ul>
+                        </div>
+                        <div class="header__top-clock">
+                            <div class="value">13:50 (GMT+3)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="#" class="header__link news">Новости</a></li>
+                        <li class="header__item"><a href="#" class="header__link about">О компании</a></li>
+                        <li class="header__item"><a href="#" class="header__link adress">Адреса</a></li>
+                        <li class="header__item"><a href="#" class="header__link payment">Платежи</a></li>
+                        <li class="header__item"><a href="#" class="header__link chat">Чат</a></li>
+                        <li class="header__item"><a href="#" class="header__link bonus">Бонус 4%</a></li>
+                        <li class="header__item"><a href="#" class="header__link search">Поиск</a></li>
+                    </ul>
+                    <ul class="header__btngroup">
+                        <li class="header__btn mobile">
+                            <a href="#">Мобильная версия</a>
+                        </li>
+                        <li class="header__btn store">
+                            <a href="#"><img src="./images/dest/G-PLAY.png" alt="android"></a>
+                        </li>
+                        <li class="header__btn store">
+                            <a href="#"><img src="./images/dest/APPSTORE.png" alt="appstore"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__signIn">
+                <form class="form" action="" method="POST">
+                    <div class="form__inputs">
+                        <div class="form__login">
+                            <input type="text" id="login" name="login" placeholder="Логин">
+                        </div>
+                        <div class="form__pass">
+                            <input type="password" id="password" name="password" placeholder="Пароль">
+                            <a class="form__pass-forgot" href="#"><span>Забыли пароль?</span></a>
+                        </div>
+                    </div>
+                    <div class="form__buttons">
+                        <input id="" class="form__buttons-btn submit" type="submit" value="Вход">
+                        <a class="form__buttons-btn registration" href="#">Регистрация</a>
+                    </div>
+                </form>
+            </div>
+            <div class="burger-menu">
+                <a href="#" class="burger-menu__button">
+                    <span class="burger-menu__lines"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <aside class="side left">
+        <div class="side__caption">Виды спорта</div>
+        <ul class="side__tabs-head">
+            <li class="side__tab">Все события</li>
+            <li class="side__tab is-active">Live</li>
+        </ul>
+        <ul class="side__tabs-menu">
+            <li class="menu__item">
+                <a href="" class="menu__link"><img class="menu__link-icon" src="./images/dest/icons/leftmenu/Star.svg"
+                                                   alt="Избранное"> Избранное</a>
+                <div class="counter">45</div>
+            </li>
+            <li class="menu__item submenu is-active">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/016-soccer-ball.svg"
+                                                            alt="Футбол"> Футбол</a>
+                <ul class="category__list">
+                    <li class="category__item submenu is-active">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item submenu">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/030-tennis.svg"
+                                                            alt="Теннис"> Теннис</a>
+                <ul class="category__list">
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item submenu">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/065-basketball.svg"
+                                                            alt="Баскетбол"> Баскетбол</a>
+                <ul class="category__list">
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item submenu">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/004-volleyball.svg"
+                                                            alt=" Волейбол"> Волейбол</a>
+                <ul class="category__list">
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item submenu">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/035-ice-hockey.svg"
+                                                            alt="Хоккей">Хоккей</a>
+                <ul class="category__list">
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item">
+                                <a href=""><img class="menu__link-icon"
+                                                src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                alt="Мужчины. Плюслига">Мужчины. Плюслига </a>
+                            </li>
+                            <li class="category__menu-item">
+                                <a href=""><img class="menu__link-icon"
+                                                src="./images/dest/icons/teamlogos/icon-flags.svg" alt="Женшины. LSK">Женшины.
+                                    LSK</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item submenu">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/handball.svg"
+                                                            alt="Гандбол"> Гандбол</a>
+                <ul class="category__list">
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item submenu">
+                <a href="" class="menu__link category"><img class="menu__link-icon"
+                                                            src="./images/dest/icons/leftmenu/gamepad.svg"
+                                                            alt="Киберспорт"> Киберспорт</a>
+                <ul class="category__list">
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/leftmenu/icon-clubs.svg"
+                                                                alt="Клубы. Международные"> Клубы. Международные</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/250-brazil.svg"
+                                                                alt="Бразилия"> Бразилия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/072-denmark.svg"
+                                                                alt="Дания"> Дания</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/108-poland.svg"
+                                                                alt="Польша"> Польша</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-korey.svg"
+                                                                alt="Республика Корея"> Республика Корея</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                    <li class="category__item submenu">
+                        <a class="category__link" href="#"><img class="menu__link-icon"
+                                                                src="./images/dest/icons/country/icon-shotland.svg"
+                                                                alt="Шотландия"> Шотландия</a>
+                        <ul class="category__menu">
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/plus-league.svg"
+                                                                            alt="Мужчины. Плюслига">Мужчины. Плюслига
+                            </a></li>
+                            <li class="category__menu-item"><a href=""><img class="menu__link-icon"
+                                                                            src="./images/dest/icons/teamlogos/icon-flags.svg"
+                                                                            alt="Женшины. LSK">Женшины. LSK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">LIVE</a></li>
+                <li><a href="#">Counter-StrikeLOOTBET</a></li>
+                <li>Season 6</li>
+            </ul>
+            <section class="event" id="eventID">
+                <div class="event__head">
+                    <h2 class="event__title"><img src="./images/dest/icons/category-soccer-ball.svg"
+                                                  alt="Футбол. NBA 2K. Регулярный кубок. 4х5 мин."> Футбол. NBA 2K.
+                        Регулярный кубок. 4х5 мин.</h2>
+                </div>
+                <div class="event__body">
+                    <div class="wrap">
+                    <table class="table">
+                        <tbody>
+                        <tr class="head">
+                            <th class="head__caption">Название события</th>
+                            <th class="head__cap">1</th>
+                            <th class="head__cap">X</th>
+                            <th class="head__cap">2</th>
+                            <th class="head__cap">1X</th>
+                            <th class="head__cap">12</th>
+                            <th class="head__cap">X2</th>
+                            <th class="head__cap">ф1</th>
+                            <th class="head__cap">ф2</th>
+                            <th class="head__cap">м</th>
+                            <th class="head__cap">б</th>
+                        </tr>
+                        <tr class="info">
+                            <td class="first">
+                                <div class="content">
+                                    <div class="one">
+                                        <ul>
+                                            <li><a href="#"><img src="./images/dest/icons/icon-star.svg" alt="1"></a>
+                                            </li>
+                                            <li><a href="#"><img src="./images/dest/icons/icon-football-place.svg"
+                                                                 alt="2"></a></li>
+                                            <li><a href="#"><img src="./images/dest/icons/icon-play.svg" alt="3"></a>
+                                            </li>
+                                            <li><a href="#"><img src="./images/dest/icons/icon-television.svg" alt="4"></a>
+                                            </li>
+                                        </ul>
+                                        <div class="caption">
+                                            <div class="caption__list">
+                                                <p>Вестерн Сидней Уондерерз</p>
+                                                <p>Ньюкасл Джетс</p>
+                                            </div>
+                                            <div class="caption__img">
+                                                <img src="./images/dest/icons/statistical-chart.svg"
+                                                     alt="statistical-chart">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="two">
+                                        <div class="two__time">
+                                            <div class="two__time-count">14:35</div>
+                                            <div class="two__time-list">77:72 (16:25, 23:23, 14:10, 24:14)</div>
+                                        </div>
+                                        <div class="two__info">
+                                            <div class="two__info-time">64:00</div>
+                                            <div class="two__info-static">+124</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="last10 up">2.23</td>
+                            <td class="last10">4.3</td>
+                            <td class="last10 down">1.23</td>
+                            <td class="last10">-</td>
+                            <td class="last10">-</td>
+                            <td class="last10">-</td>
+                            <td class="last10 last up">
+                                <div class="val"><span>(+5.0)</span>1.81</div>
+                            </td>
+                            <td class="last10 last down">
+                                <div class="val"><span>(-5.0)</span>2.09</div>
+                            </td>
+                            <td class="last10">
+                                <div class="val"><span>(6.0)</span>2.05</div>
+                            </td>
+                            <td class="last10">
+                                <div class="val"><span>(6.0)</span>1.82</div>
+                            </td>
+                        </tr>
+                        <tr class="info">
+                            <td class="first">
+                                <div class="content item">
+                                    1-я карта
+                                </div>
+                            </td>
+                            <td class="last10 up">2.23</td>
+                            <td class="last10">4.3</td>
+                            <td class="last10 down">1.23</td>
+                            <td class="last10">-</td>
+                            <td class="last10">-</td>
+                            <td class="last10">-</td>
+                            <td class="last10 last up">
+                                <div class="val"><span>(+5.0)</span>1.81</div>
+                            </td>
+                            <td class="last10 last down">
+                                <div class="val"><span>(-5.0)</span>2.09</div>
+                            </td>
+                            <td class="last10">
+                                <div class="val"><span>(6.0)</span>2.05</div>
+                            </td>
+                            <td class="last10">
+                                <div class="val"><span>(6.0)</span>1.82</div>
+                            </td>
+                        </tr>
+                        <tr class="info">
+                            <td class="first">
+                                <div class="content item">
+                                    1-я карта
+                                </div>
+                            </td>
+                            <td class="last10 up">2.23</td>
+                            <td class="last10">4.3</td>
+                            <td class="last10 down">1.23</td>
+                            <td class="last10">-</td>
+                            <td class="last10">-</td>
+                            <td class="last10">-</td>
+                            <td class="last10 last up">
+                                <div class="val"><span>(+5.0)</span>1.81</div>
+                            </td>
+                            <td class="last10 last down">
+                                <div class="val"><span>(-5.0)</span>2.09</div>
+                            </td>
+                            <td class="last10">
+                                <div class="val"><span>(6.0)</span>2.05</div>
+                            </td>
+                            <td class="last10">
+                                <div class="val"><span>(6.0)</span>1.82</div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="information">
+                        <div class="information__weather">
+                            <span class="information__weather-title">Погода:</span>
+                            <ul class="information__weather-list">
+                                <li class="information__weather-item">
+                                    <img src="./images/dest/icons/icon-cloudy.svg" alt="">
+                                    <span>+5°C</span>
+                                </li>
+                                <li class="information__weather-item">
+                                    <img src="./images/dest/icons/icon-veter.svg" alt="">
+                                    <span>0.6</span>
+                                </li>
+                                <li class="information__weather-item">
+                                    <img src="./images/dest/icons/icon-tisk.svg" alt="">
+                                    <span>763</span>
+                                </li>
+                                <li class="information__weather-item">
+                                    <img src="./images/dest/icons/icon-vlag.svg" alt="">
+                                    <span>69%</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="information__links">
+                            <li>
+                                <a href="#">Стадион</a>
+                                <img src="./images/dest/icons/icon-sadion.svg" alt="Стадион">
+                            </li>
+                            <li>
+                                <a href="#">Повторы</a>
+                                <img src="./images/dest/icons/icon-repied.svg" alt="Повторы">
+                            </li>
+                            <li>
+                                <a href="#">Статистика</a>
+                                <img src="./images/dest/icons/icon-statistics.svg"
+                                     alt="Статистика"></li>
+                        </ul>
+                    </div>
+                    <div class="tabs">
+                        <ul class="tabs__list">
+                            <li class="tabs__item"><a class="tabs__link is-active" href="#">Все выборы</a></li>
+                            <li class="tabs__item"><a class="tabs__link" href="#">Форы</a></li>
+                            <li class="tabs__item"><a class="tabs__link" href="#">Тоталы</a></li>
+                            <li class="tabs__item"><a class="tabs__link" href="#">Четверти</a></li>
+                            <li class="tabs__item"><a class="tabs__link" href="#">Разное</a></li>
+                        </ul>
+                        <ul class="tabs__content">
+                            <li class="tabs__item">
+                                <div class="tabs__head">Форы</div>
+                                <ul class="tabs__table">
+                                    <li>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="tabs__item">
+                                <div class="tabs__head">Тоталы</div>
+                                <ul class="tabs__table">
+                                    <li>
+                                        <div class="tabs__table-info">
+                                        <div class="desc">Меньше(87.5)</div>
+                                        <div class="val">1.174</div>
+                                    </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div></li>
+                                    <li><div class="tabs__table-info">
+                                        <div class="desc">Меньше(87.5)</div>
+                                        <div class="val">1.174</div>
+                                    </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div></li>
+                                </ul>
+                            </li>
+                            <li class="tabs__item">
+                                <div class="tabs__head">Индивидуальный тотал</div>
+                                <ul class="tabs__table">
+                                    <li>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Меньше(87.5)</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="tabs__item">
+                                <div class="tabs__head">Индивидуальный тотал</div>
+                                <ul class="tabs__table">
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="tabs__item">
+                                <div class="tabs__head">Индивидуальный тотал</div>
+                                <ul class="tabs__table">
+
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал если в 2 строки </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал если в 2 строки </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="tabs__item">
+                                <div class="tabs__head">Индивидуальный тотал</div>
+                                <ul class="tabs__table">
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="tabs__table-info center">
+                                            <div class="desc">Ничья и тотал </div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Да</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                        <div class="tabs__table-info">
+                                            <div class="desc">Нет</div>
+                                            <div class="val">1.174</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <aside class="side right">
+        <ul class="right__list">
+            <li class="right__item">
+                <div class="head">
+                    <h4>Бонусы</h4>
+                    <a href="#">Все бонусы</a>
+                </div>
+                <div class="sim-slider">
+                    <ul class="sim-slider-list">
+                        <li class="sim-slider-element"><img src="./images/dest/ml-tv.jpg" alt="tv-игры"></li>
+                        <li class="sim-slider-element"><img src="./images/dest/ml-tv.jpg" alt="2"></li>
+                        <li class="sim-slider-element"><img src="./images/dest/ml-tv.jpg" alt="3"></li>
+                        <li class="sim-slider-element"><img src="./images/dest/ml-tv.jpg" alt="4"></li>
+                        <li class="sim-slider-element"><img src="./images/dest/ml-tv.jpg" alt="5"></li>
+                        <li class="sim-slider-element"><img src="./images/dest/ml-tv.jpg" alt="6"></li>
+                    </ul>
+                    <div class="sim-slider-dots"></div>
+                </div>
+            </li>
+            <li class="right__item">
+                <div class="head">
+                    <h4>TV Игры</h4>
+                    <a href="#">Все игры</a>
+                </div>
+                <ul class="game__list">
+                    <li class="game__item tabs">
+                        <ul class="tabs__body">
+                            <li class="tabs__view active" data-id="1-1" style="background-image: url(./images/dest/tvbet.jpg)"><img src="./images/dest/logotvbet.png" alt="1"></li>
+                            <li class="tabs__view" data-id="1-2" style="background-image: url(./images/dest/tvbet.jpg)"><img src="./images/dest/logotvbet.png" alt="2"></li>
+                            <li class="tabs__view" data-id="1-3" style="background-image: url(./images/dest/tvbet.jpg)"><img src="./images/dest/logotvbet.png" alt="3"></li>
+                            <li class="tabs__view" data-id="1-4" style="background-image: url(./images/dest/tvbet.jpg)"><img src="./images/dest/logotvbet.png" alt="4"></li>
+                        </ul>
+                        <ul class="tabs__nav">
+                            <li><a class="tabs__btn active" data-id="1-1" href="#">1 бет</a></li>
+                            <li><a class="tabs__btn" data-id="1-2" href="#">5 БЭТ</a></li>
+                            <li><a class="tabs__btn" data-id="1-3" href="#">7 БЭТ</a></li>
+                            <li><a class="tabs__btn" data-id="1-4" href="#">Кено</a></li>
+                        </ul>
+                    </li>
+                    <li class="game__item tabs">
+                        <ul class="tabs__body">
+                            <li class="tabs__view active" data-id="2-1" style="background-image: url(./images/dest/tvgames.jpg)"><img src="./images/dest/betgames-logo.png" alt="1"></li>
+                            <li class="tabs__view" data-id="2-2" style="background-image: url(./images/dest/tvgames.jpg)"><img src="./images/dest/betgames-logo.png" alt="2"></li>
+                            <li class="tabs__view" data-id="2-3" style="background-image: url(./images/dest/tvgames.jpg)"><img src="./images/dest/betgames-logo.png" alt="3"></li>
+                        </ul>
+                        <ul class="tabs__nav">
+                            <li><a class="tabs__btn active" data-id="2-1" href="#">7 из 42</a></li>
+                            <li><a class="tabs__btn" data-id="2-2" href="#">6 из 60</a></li>
+                            <li><a class="tabs__btn" data-id="2-3" href="#">5 из 36</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="right__item">
+                <div class="head">
+                    <h4>НОВОСТИ КОМПАНИИ</h4>
+                    <a href="#">Все новости</a>
+                </div>
+                <ul class="news__list">
+                    <li class="news__item">
+                        <a href="#" style="background-image: url(../images/dest/image.jpg);">
+                            <p class="description">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#" style="background-image: url(../images/dest/image.jpg);">
+                            <p class="description">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#" style="background-image: url(../images/dest/image.jpg);">
+                            <p class="description">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="right__item">
+                <div class="head">
+                    <h4>НОВОСТИ СПОРТА</h4>
+                    <a href="#">Все новости</a>
+                </div>
+                <ul class="news__list">
+                    <li class="news__item">
+                        <a href="#" style="background-image: url(../images/dest/image.jpg);">
+                            <p class="description">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#" style="background-image: url(../images/dest/image.jpg);">
+                            <p class="description">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#" style="background-image: url(../images/dest/image.jpg);">
+                            <p class="description">Хамес Родригес хочет уйти из «Баварии» в конце сезона.</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="rewievs">
+            <div class="rewievs__head">
+                <img src="./images/dest/reit-logo.png" alt="Рейтинг букмекеров">
+            </div>
+            <ul class="rewievs__list">
+                <li class="rewievs__item is-active">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.952 3.23607L17.3794 10.7069L17.6039 11.3979H18.3305H26.1858L19.8307 16.0152L19.2429 16.4422L19.4674 17.1332L21.8949 24.6041L15.5398 19.9868L14.952 19.5598L14.3642 19.9868L8.00911 24.6041L10.4365 17.1332L10.6611 16.4422L10.0733 16.0152L3.71818 11.3979H11.5735H12.3L12.5246 10.7069L14.952 3.23607Z"
+                              stroke="#FFC62B" stroke-width="2"/>
+                    </svg>
+                </li>
+                <li class="rewievs__item is-active">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.952 3.23607L17.3794 10.7069L17.6039 11.3979H18.3305H26.1858L19.8307 16.0152L19.2429 16.4422L19.4674 17.1332L21.8949 24.6041L15.5398 19.9868L14.952 19.5598L14.3642 19.9868L8.00911 24.6041L10.4365 17.1332L10.6611 16.4422L10.0733 16.0152L3.71818 11.3979H11.5735H12.3L12.5246 10.7069L14.952 3.23607Z"
+                              stroke="#FFC62B" stroke-width="2"/>
+                    </svg>
+                </li>
+                <li class="rewievs__item is-active">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.952 3.23607L17.3794 10.7069L17.6039 11.3979H18.3305H26.1858L19.8307 16.0152L19.2429 16.4422L19.4674 17.1332L21.8949 24.6041L15.5398 19.9868L14.952 19.5598L14.3642 19.9868L8.00911 24.6041L10.4365 17.1332L10.6611 16.4422L10.0733 16.0152L3.71818 11.3979H11.5735H12.3L12.5246 10.7069L14.952 3.23607Z"
+                              stroke="#FFC62B" stroke-width="2"/>
+                    </svg>
+                </li>
+                <li class="rewievs__item is-active">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.952 3.23607L17.3794 10.7069L17.6039 11.3979H18.3305H26.1858L19.8307 16.0152L19.2429 16.4422L19.4674 17.1332L21.8949 24.6041L15.5398 19.9868L14.952 19.5598L14.3642 19.9868L8.00911 24.6041L10.4365 17.1332L10.6611 16.4422L10.0733 16.0152L3.71818 11.3979H11.5735H12.3L12.5246 10.7069L14.952 3.23607Z"
+                              stroke="#FFC62B" stroke-width="2"/>
+                    </svg>
+                </li>
+                <li class="rewievs__item">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.952 3.23607L17.3794 10.7069L17.6039 11.3979H18.3305H26.1858L19.8307 16.0152L19.2429 16.4422L19.4674 17.1332L21.8949 24.6041L15.5398 19.9868L14.952 19.5598L14.3642 19.9868L8.00911 24.6041L10.4365 17.1332L10.6611 16.4422L10.0733 16.0152L3.71818 11.3979H11.5735H12.3L12.5246 10.7069L14.952 3.23607Z"
+                              stroke="#FFC62B" stroke-width="2"/>
+                    </svg>
+                </li>
+            </ul>
+            <div class="rewievs__description">
+                <span>Оценка РБ</span>
+                <div class="counter">4/5</div>
+            </div>
+            <button class="rewievs__btn">Оставить отзыв</button>
+        </div>
+    </aside>
+</div>
+<footer>
+    <div class="container">
+        <ul class="footer__nav">
+            <li class="footer__nav-item">
+                <h2>Помощь</h2>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">Maxline FAQ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Условия</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Правила приёма ставок</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Техническая поддержка</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer__nav-item">
+                <h2>Ссылки</h2>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">О компании</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Новости</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Платежи</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Чат</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer__nav-item">
+                <h2>Сайт</h2>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">Спорт</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Live</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Статистика</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Результатыт</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Мобильная версия</a>
+                    </li>
+                </ul>
+
+            </li>
+            <li class="footer__nav-item">
+                <h2>Дополительные адреса</h2>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">Зеркало 1</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Зеркало 2</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Зеркало 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer__nav-item">
+                <h2>Счёт</h2>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">Регистрация</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Вход</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Пополнения счёта</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Вывод средств</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Демо счёт</a>
+                    </li>
+                </ul>
+
+            </li>
+            <li class="footer__nav-item">
+                <h2>TV Игры</h2>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">BetGames</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">TVBet</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">GoldenRace</a>
+                    </li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+    <div class="logos">
+        <span class="line">&nbsp;</span>
+        <ul class="logos__list">
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo01.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo02.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo03.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo04.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo05.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo06.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo07.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo08.png" alt="name partner">
+            </li>
+            <li class="logos__item">
+                <img src="./images/dest/logos/logo09.png" alt="name partner">
+            </li>
+        </ul>
+
+        <span class="line">&nbsp;</span>
+    </div>
+    <div class="container">
+        <div class="wrap">
+            <div class="footer__logo">
+                <img src="./images/dest/footer-logo.svg" alt="Maxline"/>
+            </div>
+            <span class="footer__description">&#169; 2020 Букмекерская компания Maxline Все права защищены.</span>
+            <ul class="footer__seti">
+                <li><a href="#" rel="me nofollow" target="_blank"><img src="images/dest/logos/icon-youtube.svg"
+                                                                       alt="youtube"/></a></li>
+                <li><a href="#" rel="me nofollow" target="_blank"><img src="images/dest/logos/icon-vk.svg"
+                                                                       alt="vk"/></a></li>
+                <li><a href="#" rel="me nofollow" target="_blank"><img src="images/dest/logos/icon-twitter.svg"
+                                                                       alt="twitter"/></a></li>
+                <li><a href="#" rel="me nofollow" target="_blank"><img src="images/dest/logos/icon-instagram.svg"
+                                                                       alt="instagram"/></a></li>
+                <li><a href="#" rel="me nofollow" target="_blank"><img src="images/dest/logos/icon-facebook.svg"
+                                                                       alt="facebook"/></a></li>
+                <li><a href="#" rel="me nofollow" target="_blank"><img src="images/dest/logos/icon-ok.svg"
+                                                                       alt="ok"/></a></li>
+
+            </ul>
+        </div>
+        <ul class="partners">
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-01.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-02.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-03.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-04.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-05.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-06.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-07.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-08.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-09.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-10.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-11.svg" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-12.png" alt="partners name">
+            </li>
+            <li class="partners__item">
+                <img src="./images/dest/logos/icon-13.svg" alt="partners name">
+            </li>
+        </ul>
+    </div>
+</footer>
+
+<script src="js/app.min.js"></script>
+
+</body>
+</html>
